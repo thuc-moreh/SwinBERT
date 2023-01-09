@@ -20,7 +20,8 @@ conda activate swinbert
 ```
 ### Run
 1. Reproduce the CUDA out of memory error
-Follow [README.md](https://github.com/thuc-moreh/SwinBERT/blob/main/README.md) to the step Before Running Code: Launch Docker Container.
+
+First, follow [README.md](https://github.com/thuc-moreh/SwinBERT/blob/main/README.md) to the step Before Running Code: Launch Docker Container.
 After that run
 ```bash
 export REPO_DIR=$PWD
