@@ -31,7 +31,8 @@ OUTPUT_DIR=$REPO_DIR'/output/'
 source launch_container.sh $DATASETS $MODELS $OUTPUT_DIR
 ```
 2. Reproduce Could not install packages due to an OSError: [Errno 2] No such file or directory: '/tmp/build/80754af9/attrs_1604765588209/work'
-First, run
+
+When you're inside the container, run
 ```bash
 pip freeze > requirements.txt 
 ```
